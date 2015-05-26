@@ -26,11 +26,11 @@ const (
 
 func main() {
   client := gcm.NewClient()
-	data := map[string]interface{}{}
-	_, err := client.Send(api_key, data, reg_id)
-	if err != nil {
-		fmt.Errorf("Failed to send GCM message : %s", err)
-	}
+  data := map[string]interface{}{}
+  _, err := client.Send(api_key, data, reg_id)
+  if err != nil {
+    fmt.Errorf("Failed to send GCM message : %s", err)
+  }
 }
 ```
 
