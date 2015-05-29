@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	test_api_key = "AIzaSyAW3a1RrqMCnDFQry22ymV86O9IDJtxr_Y"
-	test_reg_id  = "APA91bHfqbxReVo4DriNkV_rDxOMTmCp0h4WLldpzIoPgU9QAeLJQLpkgfUdGdsxBFSQSXLvS2JVg7oKFJ5PJvMKuOzRuB9Bd9QVTJr48tV02ncz0Phj9f8gEzHBFL1RzS97-LQR5-xmZu7h6x-k64taLKGlyq-2YPAxTrgNxmL6iCjuig_NoSA"
+	test_api_key = "INPUT_YOUR_API_KEY"
+	test_reg_id  = "INPUT_YOUR_REG_ID"
 )
 
 func Test_SendGCM(t *testing.T) {
